@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  DetailViewController.h
 //  NOC List
 //
 //  Created by Ben Gohlke on 1/28/15.
@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Agent.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface DetailViewController : UIViewController
 
-@property (strong, nonatomic) UIWindow *window;
+@property (nonatomic) Agent *agent;
 
 @end

@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  MasterViewController.h
 //  NOC List
 //
 //  Created by Ben Gohlke on 1/28/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface MasterViewController : UITableViewController
 
 @end
